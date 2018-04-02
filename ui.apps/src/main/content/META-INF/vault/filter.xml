@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/esi-spa"/>
+
+    <filter root="/apps/sling/servlet/errorhandler"/>
+
+
+    <filter root="/conf/esi-spa" mode="merge"/>
+
+
+    <filter root="/etc/clientlibs/esi-spa"/>
+
+
+    <filter root="/etc/designs/esi">
+        <include pattern="/etc/designs/esi/jcr:content"/>
+
+        <include pattern="/etc/designs/esi/jcr:content/clientlibs"/>
+        <include pattern="/etc/designs/esi/jcr:content/clientlibs/.*"/>
+
+    </filter>
+
+</workspaceFilter>
